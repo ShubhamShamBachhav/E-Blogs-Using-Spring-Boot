@@ -34,7 +34,7 @@ In this project, basically it consists of two  main modules the USER modules and
 In this forgot password concept we are using the concept of email services of spring boot. if you want to enable email services in application so you have to do two things  
 1. add dependency of email services in the pom.xml file  
 2. we have to configure some properties of email services in the application.properties file  
-Once we have changed password by using the concept of forgot password, we can be able to login into our application once we are login we can be able to post blogs . user can also be able to logout from his account  
+Once we have changed password by using the concept of forgot password, we can be able to login into our application once we are login we can be able to post blogs . user can also be able to logout from his account.   
 
 **2.POST Module :**  Now in the post module we can be able to add blogs ,view blogs ,edit ,delete blogs.In the add blog feature we can verify the content of our blogs on the plagarism checker tool(turnitin)
 so here our eblogs application is acting like a client which sends request to server (turnnitin) by using restAPI on the server(turnnitin) our request or content will be verified within 50000 m/s = 50sec .. Once content will be verified ( if there is less than 50 % plagarism) we can able to post the blog (into our database).
